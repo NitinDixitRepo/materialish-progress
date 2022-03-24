@@ -2,7 +2,16 @@
 
 # Material-ish Progress
 
-A material style progress wheel compatible with 2.3
+A material style progress wheel compatible with Android Studio Bumblebee | 2021.1.1 Patch 2
+Build #AI-211.7628.21.2111.8193401, built on February 17, 2022
+Runtime version: 11.0.11+9-b60-7590822 amd64
+VM: OpenJDK 64-Bit Server VM by Oracle Corporation
+Windows 10 10.0
+GC: G1 Young Generation, G1 Old Generation
+Memory: 4096M
+Cores: 4
+Registry: external.system.auto.import.disabled=true, ide.balloon.shadow.size=0
+Non-Bundled Plugins: com.intellij.marketplace (211.7628.36), net.vektah.codeglance (1.5.4), Dart (211.7808), wu.seal.tool.jsontokotlin (3.7.2), com.thoughtworks.gauge (211.6693.111), org.jetbrains.kotlin (211-1.6.10-release-923-AS7442.40), io.flutter (65.2.2), com.mistamek.drawablepreview.drawable-preview (1.1.5), com.chrisrm.idea.MaterialThemeUI (6.7.2), com.nvinayshetty.DTOnator (V0.997), org.intellij.plugins.markdown (211.7142.37)
 
 [comment]: <> (Try the demo app on Google Play:)
 
