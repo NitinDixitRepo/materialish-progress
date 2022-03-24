@@ -1,12 +1,12 @@
-[![](https://img.shields.io/badge/Methods and size-106 | 12 KB-e91e63.svg)](http://www.methodscount.com/?lib=com.pnikosis%3Amaterialish-progress%3A1.7)
+[![](https://jitpack.io/v/NitinDixitRepo/materialish-progress.svg)](https://jitpack.io/#NitinDixitRepo/materialish-progress)
 
 # Material-ish Progress
 
 A material style progress wheel compatible with 2.3
 
-Try the demo app on Google Play:
+[comment]: <> (Try the demo app on Google Play:)
 
-[![Get it on Google Play](https://developer.android.com/images/brand/en_generic_rgb_wo_45.png)](https://play.google.com/store/apps/details?id=com.pnikosis.materialishprogress.sample)
+[comment]: <> ([![Get it on Google Play]&#40;https://developer.android.com/images/brand/en_generic_rgb_wo_45.png&#41;]&#40;https://play.google.com/store/apps/details?id=com.pnikosis.materialishprogress.sample&#41;)
 
 I needed to keep a consistent (or as close as possible) look in an app across all Android Versions. The progress wheel is quite cool in Lollipop, and pretty horrible on Gingerbread.
 
@@ -28,7 +28,7 @@ You can also have a linear determinate progress mode if you don't like the anima
 
 You can copy the ProgressWheel.java (in the library module) and the attrs.xml content into your project. Or you can get the binaries from Maven central by adding in your build.gradle dependencies:
 
-```compile 'com.pnikosis:materialish-progress:1.7'```
+```implementation 'com.github.NitinDixitRepo:materialish-progress:2.0.0'```
 
 ## Usage
 
@@ -116,11 +116,12 @@ In the xml definition, besides the ```fillRadius``` property, you can set:
 * 1.4 Improved callback, now receives a value which is rounded to two decimals
 * 1.5 Callback is called with a value of -1.0f in the indeterminate wheel every time the animation cycle finishes, updated Gradle and support libraries
 * 1.7 Animations are disabled when the system preferences have disabled animations
+* 2.0.0 Migrated to latest dependencies
 
 License
 -------
 
-    Copyright 2014 Nico Hormazábal
+    Copyright 2022 Nitin Dixit
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
